@@ -1,10 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
 main header {
     text-align: center;
     color: blueviolet;
-    font-size: 50px;
+    font-size: 5rem;
 }
 
 main p{
     text-align: center;
     color: darkgreen;
+    font-size: 1.6rem;
+}
+
+.container{
+    width: 70%;
+    border: 1px solid #272727;
+    margin: 0 auto;
 }
