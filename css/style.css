@@ -9,15 +9,27 @@ html{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+body{
+    background-color:#d8d8d8;
+}
+
+
 div .cabecera{
-background-color: blueviolet;
-font-size: 3rem;
-padding-left: 15px ;
-font-weight: bold;
-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
-color: white;
-height: 50px;
-text-justify:auto;
+    background-color: blueviolet;
+    font-size: 3rem;
+    padding-left: 20px ;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+    height: 50px;
+    text-justify:auto;
+    padding: 0.5 0 0.5 0.3;
+}
+
+.cabecera .logo{
+    width: 45px;
+    vertical-align: middle;
+    margin: auto auto;
 }
 
 div span{
@@ -42,4 +54,14 @@ main p{
     width: 70%;
     border: 1px solid #272727;
     margin: 0 auto;
+    background: rgb(232,11,11);
+    background: linear-gradient(90deg, rgba(232,11,11,0.9867297260701156) 0%, rgba(29,253,250,1) 67%, rgba(252,176,69,1) 100%);
+}
+
+.container .cabecera .imagen-sapo{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../frog.svg');
 }
